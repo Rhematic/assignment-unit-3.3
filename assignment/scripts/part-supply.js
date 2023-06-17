@@ -48,6 +48,9 @@ for (i = 0; i < supplyChanges.length; i++) {
   if (supplyChanges[i] === 0) {
     console.log("no change");
   }
+  if (supplyChanges[i] < 0) {
+    console.log("removed", supplyChanges[i], "parts");
+  }
 }
 
 // STRETCH GOALS
